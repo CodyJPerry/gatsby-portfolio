@@ -9,7 +9,9 @@ import Hero from "../components/Hero"
 
 const IndexPage = () => {
   return (
-    <Hero />
+    <Layout>
+      <Hero />
+    </Layout>
   )
 }
 
